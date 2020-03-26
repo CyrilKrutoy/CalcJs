@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+body{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#000;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#calculator{
+    background-color:rgb(184, 184, 184);
+    width:330px;
+    height:450px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#display{
+    background-color: rgb(236, 236, 236);
+    width:90%;
+    height:60px;
+    line-height:60px;
+    font-size: 45px;
+    overflow: hidden;
+    padding:0 10px;
+    font-family: Digital;
+    box-sizing: border-box;
+    margin:20px auto;
+    box-shadow: inset 3px 3px 3px rgba(75,75,75,.3);
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width:300px;
+    height:300px;
+
+}
+
+.button{
+    display: block;
+    width: 74px;
+    height: 74px;
+    background-color:rgb(211, 211, 211);
+    border:0.5px solid rgb(165, 165, 165);
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 25px rgba(99, 99, 99, 0.25);
+}
+
+.button:nth-child(4n+4){
+color: blue;
+}
+.button:nth-child(13){
+    color: blue;
+}
+:nth-child(15){
+    color: blue;
+}
